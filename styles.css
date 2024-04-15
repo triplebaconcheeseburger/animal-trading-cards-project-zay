@@ -1,0 +1,58 @@
+/* General Reset for Margin and Padding */
+body, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Card Container Styles */
+#main {
+    width: 300px; /* total width including padding */
+    margin: 20px auto; /* center the card vertically and provide top and bottom margin */
+    padding: 10px; /* padding around the content */
+    border: 1px solid rgb(189, 189, 189); /* border around the whole card */
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.077);
+}
+
+/* Animal Name Styles */
+h3 {
+    margin-bottom: 10px; /* space below the name */
+    padding: 10px; /* padding inside the border */
+}
+
+/* Animal Image Styles */
+img {
+    display: block; /* ensures the image does not have inline extra space */
+    width: 300px; /* fixed width for the image */
+    height: auto; /* maintain aspect ratio */
+    margin: 0 auto 20px; /* center the image and provide space below */
+    border: 1px solid rgb(189, 189, 189);
+}
+
+/* Interesting Fact Styles */
+#animal-facts {
+    border: 1px solid rgb(189, 189, 189);    
+}
+
+
+p:first-of-type {
+    font-style: italic; /* italicize the text */
+    margin-bottom: 10px; /* space below the interesting fact */
+    padding: 10px; /* padding inside the border */
+}
+
+/* List Items Styles */
+ul {
+    list-style-type: none; /* removes bullet points */
+    margin-bottom: 10 px; /* space below the list */
+    padding: 10px; /* padding inside the border */
+}
+
+li span {
+    font-weight: bold; /* bold the labels */
+}
+
+/* Description Styles */
+p:last-of-type {
+    padding: 10px; /* padding inside the border */
+}
