@@ -1,3 +1,5 @@
+
+
 /* General Reset for Margin and Padding */
 body, h3, p, ul, li {
     margin: 0;
@@ -56,3 +58,10 @@ li span {
 p:last-of-type {
     padding: 10px; /* padding inside the border */
 }
+
+/* ______   _    _   
+|___  /  | |  | |  
+   / /_  | |__| |_ 
+  / '_ \ |  __  (_)
+ / /_) || |  | |   
+/____(_)_|  |_|   */
